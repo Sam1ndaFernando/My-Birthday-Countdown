@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing to include padding and border in element's total width and height */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(assets/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.wrapper {
+    text-align: center; /* Center align contents inside wrapper */
+}
+
+.heading {
+    color: #fff;
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    margin-bottom: 25px;
+    animation: fadeEffect 5s infinite;
+
+}
+
+.description {
+    color: #bababa;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: Lucida Sans;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sub_timer {
+    width: 220px;
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.digit {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 70px;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.digit_name {
+    color: #000;
+    background: #fff;
+    text-align: center;
+    padding: 0.6rem 0;
+    font-size: 20px;
+}
+
+
+
+
+
+/*animation part */
+
+body {
+    background: linear-gradient(35deg, #f4a2a4, #000044, #641d8c, #9d007f);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/*////////////////////////*/
+
+
+@keyframes fadeEffect {
+    0%, 100% {
+        opacity: 0; /* Start and end state: fully transparent */
+    }
+    50% {
+        opacity: 1; /* Middle state: fully opaque */
+    }
+}
