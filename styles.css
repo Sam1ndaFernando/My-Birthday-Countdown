@@ -67,6 +67,24 @@ body {
     font-size: 20px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.44);
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: ABeeZee;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
 
 
 
@@ -106,3 +124,7 @@ body {
         opacity: 1;
     }
 }
+
+
+/*
+////////////////////////////////////////////////////////////*/
