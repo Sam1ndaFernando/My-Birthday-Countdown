@@ -14,6 +14,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+    animation: particles-move 20s linear infinite;
+    pointer-events: none;
+    z-index: -1;
+
 }
 
 .wrapper {
@@ -92,7 +98,7 @@ footer {
 /*animation part */
 
 body {
-    background: linear-gradient(35deg, #f4a2a4, #000044, #641d8c, #9d007f);
+    background: linear-gradient(35deg, #f4a2a4, #000044, #37818a, #552fb6);
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
     height: 100vh;
@@ -114,7 +120,26 @@ body {
 
 
 /*////////////////////////*/
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
+@keyframes particles-move {
+    0% {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+}
 
 @keyframes fadeEffect {
     0%, 100% {
