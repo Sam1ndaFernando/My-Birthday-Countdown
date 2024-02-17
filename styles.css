@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Add box-sizing to include padding and border in element's total width and height */
+    box-sizing: border-box;
 }
 
 body {
@@ -12,12 +12,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
-    text-align: center; /* Center align contents inside wrapper */
+    text-align: center;
 }
 
 .heading {
@@ -91,14 +91,18 @@ body {
         background-position: 0% 50%;
     }
 }
+
+
+
+
 /*////////////////////////*/
 
 
 @keyframes fadeEffect {
     0%, 100% {
-        opacity: 0; /* Start and end state: fully transparent */
+        opacity: 0;
     }
     50% {
-        opacity: 1; /* Middle state: fully opaque */
+        opacity: 1;
     }
 }
