@@ -39,7 +39,7 @@ body {
 
 .description {
     color: #d9d9d9;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-family: Lucida Sans;
 }
@@ -50,7 +50,7 @@ body {
     margin-top: 30px;
 }
 
-.sub_timer {
+.subTimer {
     width: 220px;
     background: rgba(255, 255, 255, 0.19);
     backdrop-filter: blur(20px);
@@ -67,7 +67,7 @@ body {
     font-weight: normal;
 }
 
-.digit_name {
+.digitName {
     color: #000;
     background: #fff;
     text-align: center;
