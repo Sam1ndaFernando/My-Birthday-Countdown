@@ -1,5 +1,5 @@
-var target_mili_sec = new Date("March 07, 2024 00:00:00").getTime();
-// var target_mili_sec = new Date("Feb 17, 2024 21:31:00").getTime();
+// var target_mili_sec = new Date("March 07, 2024 00:00:00").getTime();
+var target_mili_sec = new Date("Feb 19, 2024 09:15:00").getTime();
 function timer() {
     var now_mili_sec = new Date().getTime();
     var remaining_sec = Math.floor((target_mili_sec - now_mili_sec) / 1000);
@@ -17,7 +17,7 @@ function timer() {
     if (remaining_sec <= 0) {
         clearInterval(interval); // Stop the timer
         // Redirect to another HTML file
-        window.location.replace("wish.html");
+        window.location.replace("http://localhost:63342/My-Birthday-Countdown/pages/wish.html?_ijt=3m3s4neie4jpl7333hnc9thk5k&_ij_reload=RELOAD_ON_CHANGE");
     }
 }
 

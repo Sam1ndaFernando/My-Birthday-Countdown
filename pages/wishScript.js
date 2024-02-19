@@ -122,11 +122,13 @@ Particle.prototype = {
 
 
 
+
+
+
+
 /////////////////////////////////////////////////
 
-/*
-animation text
-*/
+// animation text
 
 var birthdayHeading = document.getElementById('heading01');
 
@@ -135,7 +137,8 @@ setTimeout(newMessage, 7000);
 function newMessage() {
     fadeOutHeading(function() {
 
-        birthdayHeading.textContent = "Hope you have a spectacular day!";
+        // birthdayHeading.textContent = "Hope you have a spectacular day!";
+        birthdayHeading.textContent = "මයේ කිරි පුතාට චීස් කැල්ලක් සෙට් වේවා!";
         fadeInHeading();
     });
 }
