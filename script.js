@@ -1,5 +1,5 @@
 // var target_mili_sec = new Date("March 07, 2024 00:00:00").getTime();
-var target_mili_sec = new Date("Feb 19, 2024 09:15:00").getTime();
+var target_mili_sec = new Date("Feb 19, 2024 10:05:00").getTime();
 function timer() {
     var now_mili_sec = new Date().getTime();
     var remaining_sec = Math.floor((target_mili_sec - now_mili_sec) / 1000);

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ef4c96-7219-4409-8f94-612027f41377" name="Changes" comment="workspace file added">
+    <list default="true" id="63ef4c96-7219-4409-8f94-612027f41377" name="Changes" comment="workspace updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/wish.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/wishScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wishScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/wishsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wishsStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708276530993</updated>
       <workItem from="1708276532018" duration="1836000" />
-      <workItem from="1708313392379" duration="972000" />
+      <workItem from="1708313392379" duration="2970000" />
     </task>
     <task id="LOCAL-00001" summary="js file added and bugs fix">
       <created>1708278223640</created>
@@ -76,7 +74,35 @@
       <option name="project" value="LOCAL" />
       <updated>1708278330744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated.">
+      <created>1708314424677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708314424677</updated>
+    </task>
+    <task id="LOCAL-00004" summary="css styles updated.">
+      <created>1708314454573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708314454573</updated>
+    </task>
+    <task id="LOCAL-00005" summary="js file updated.">
+      <created>1708314487776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708314487776</updated>
+    </task>
+    <task id="LOCAL-00006" summary="workspace updated">
+      <created>1708314512576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708314512576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +111,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="js file added and bugs fix" />
     <MESSAGE value="workspace file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace file added" />
+    <MESSAGE value="updated." />
+    <MESSAGE value="css styles updated." />
+    <MESSAGE value="js file updated." />
+    <MESSAGE value="workspace updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace updated" />
   </component>
 </project>
