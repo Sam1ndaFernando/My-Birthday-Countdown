@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background: #9000b6;
+    background: #67ffee;
     overflow: hidden;
     margin: 0;
 }
 
 h1 {
     font-size: 3.0rem;
-    color: white;
+    color: #ffffff;
     z-index: 1000;
     position: absolute;
     left: 50%;
@@ -22,7 +22,7 @@ h1 {
 }
 
 canvas {
-    background: #9000b6;
+    background: #67ffee;
 }
 
 footer {
