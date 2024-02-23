@@ -6,9 +6,9 @@ This webpage is a creative way to celebrate my upcoming birthday. It features a 
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## How to Use
 
